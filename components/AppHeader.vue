@@ -39,16 +39,10 @@
                             <NuxtLink to="/#">Pflanzenlisten</NuxtLink>
                         </div>
                         <div class="rounded py-1 px-2 hover:bg-green-500" v-on:click="disableNavbar()">
-                            <NuxtLink to="/#">Schaugarten</NuxtLink>
+                            <NuxtLink to="/our-garden">Schaugarten</NuxtLink>
                         </div>
                         <div class="rounded py-1 px-2 hover:bg-green-500" v-on:click="disableNavbar()">
                             <NuxtLink to="/#">Service</NuxtLink>
-                        </div>
-                        <div class="rounded py-1 px-2 hover:bg-green-500" v-on:click="disableNavbar()">
-                            <NuxtLink to="/agb">AGB</NuxtLink>
-                        </div>
-                        <div class="rounded py-1 px-2 hover:bg-green-500" v-on:click="disableNavbar()">
-                            <NuxtLink to="/#">Impressum</NuxtLink>
                         </div>
                     </div>
                 </div>
