@@ -9,4 +9,3 @@
         <AppFooter />
     </div>
 </template>
-  

@@ -26,14 +26,59 @@
         </p>
     </Card>
     <Card>
-        <div class="flex flex-row justify-center">
-            <div class="basis-1/4 flex justify-center">
+        <div class="flex flex-row justify-evenly">
+            <div class="basis-1/5 self-center">
                 <img src="~/assets/images/ausstellflaeche-01.jpg" alt="Bild von unserer Ausstellfläche" />
             </div>
-            <div class="basis-1/4 flex justify-center">
+            <div class="basis-1/5 self-center">
                 <img src="~/assets/images/ausstellflaeche-02.jpg" alt="Bild von unserer Ausstellfläche" />
             </div>
         </div>
     </Card>
+    <Card>
+        <div>Obwohl Stauden im Betrieb den Schwerpunkt darstellen. Führen wir in unserem Verkauf das Vollsortiment:
+        </div>
+        <div>
+            <ul class="list-disc list-inside">
+                <li>Stauden für alle Verwendungszwecke</li>
+                <li>Kräuter und Gewürze</li>
+                <li>Sumpf- und Wasserpflanzen</li>
+                <li>Ziergräser in großer Auswahl</li>
+                <li>Gartenfarne</li>
+                <li>Dauergrabbepflanzung</li>
+                <li>Dachstauden auch Flachballen</li>
+                <li>Alpinstauden für Liebhaber</li>
+                <li>Moorpflanzen für Liebhaber</li>
+                <li>Maßstabgerechte Pflanzen für die Garteneisenbahn</li>
+                <li>Balkonblumen, Sommerblumen</li>
+                <li>Ausgewählte Gemüsepflanzen</li>
+                <li>Heide</li>
+                <li>Kletterpflanzen</li>
+                <li>Rosen, auch wurzelnackt Okt.- März (kostengünstiger)</li>
+                <li>Ziersträucher</li>
+                <li>Laubbäume</li>
+                <li>Koniferen</li>
+                <li>Zwergnadelgehölze darunter viele Hexenbesen</li>
+                <li>Beerenobst</li>
+                <li>Stein- und Kernobst</li>
+                <li>Gehölzraritäten</li>
+            </ul>
+        </div>
+    </Card>
+    <Card>
+        <div class="flex flex-row justify-evenly">
+            <div class="basis-1/5 self-center">
+                <img src="~/assets/images/verkauf-01.jpeg" alt="Bild von unserem Verkauf" />
+            </div>
+            <div class="basis-1/5 self-center">
+                <img src="~/assets/images/verkauf-02.jpeg" alt="Bild von unserem Verkauf" />
+            </div>
+            <div class="basis-1/5 self-center">
+                <img src="~/assets/images/verkauf-03.jpeg" alt="Bild von unserem Verkauf" />
+            </div>
+            <div class="basis-1/5 self-center">
+                <img src="~/assets/images/verkauf-04.jpeg" alt="Bild von unserem Verkauf" />
+            </div>
+        </div>
+    </Card>
 </template>
-  
