@@ -153,5 +153,5 @@ const events = [{
 </script>
 
 <script setup>
-import { PhoneIcon, EnvelopeIcon } from '@heroicons/vue/24/outline';
+import { PhoneIcon, EnvelopeIcon } from '@heroicons/vue/24/outline/esm/index.js';
 </script>

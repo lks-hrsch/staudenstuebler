@@ -49,5 +49,5 @@ export default {
 </script>
 
 <script setup>
-import { ArrowTopRightOnSquareIcon } from '@heroicons/vue/24/outline';
+import { ArrowTopRightOnSquareIcon } from '@heroicons/vue/24/outline/esm/index.js';
 </script>

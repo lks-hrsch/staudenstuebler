@@ -35,5 +35,5 @@ export default {
 </script>
 
 <script setup>
-import { ChevronDownIcon, ChevronUpIcon } from '@heroicons/vue/24/outline';
+import { ChevronDownIcon, ChevronUpIcon } from '@heroicons/vue/24/outline/esm/index.js';
 </script>
