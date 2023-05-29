@@ -1,8 +1,9 @@
 // https://v3.nuxtjs.org/api/configuration/nuxt.config
 export default defineNuxtConfig({
+  modules: ['@nuxtjs/eslint-module', '@nuxtjs/tailwindcss'],
   css: ['~/assets/css/main.css'],
   typescript: {
-    shim: false
+    shim: false,
   },
   postcss: {
     plugins: {
@@ -12,6 +13,6 @@ export default defineNuxtConfig({
   },
   build: {
     // https://github.com/tailwindlabs/heroicons/issues/564
-    transpile: ['@heroicons/vue']
-  }
-})
+    transpile: ['@heroicons/vue'],
+  },
+});
