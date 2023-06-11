@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+
 module.exports = {
   content: [
     './components/**/*.{js,vue,ts}',
@@ -18,11 +19,6 @@ module.exports = {
     fontFamily: {
       sans: ['Calibri', 'sans-serif'],
       serif: ['Calibri', 'serif'],
-    },
-    extend: {
-      backgroundImage: {
-        background: "url('~/assets/images/background.jpg')",
-      },
     },
     container: {
       center: true,

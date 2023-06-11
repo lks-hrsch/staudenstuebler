@@ -13,7 +13,6 @@ module.exports = {
     tsconfigRootDir: __dirname,
   },
   extends: [
-    '@nuxtjs/eslint-config-typescript',
     'plugin:prettier/recommended',
     'plugin:vue/vue3-essential',
     'standard-with-typescript',
